@@ -70,3 +70,31 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.flex-col {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-flow: wrap;
+  width: 70vw;
+  justify-content: space-around;
+}
+
+.text-4xl {
+  margin-bottom: 2em;
+}
+
+.single-playlist-container {
+  margin: 1em;
+}
+
+@media only screen and (max-width: 600px) {
+  .single-playlist-container {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .flex-col {
+    width: 90vw;
+  }
+}

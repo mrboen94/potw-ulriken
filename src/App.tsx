@@ -25,9 +25,9 @@ function App() {
   const getSpotifyCard = async (item: any, idx: number, showDate: boolean) => {
     const html = await fetchOembedData(item.spotifyLink);
     return (
-      <div key={idx + item.spotifyLink}>
-        {showDate && <h1 className={"text-2xl"}>{item.submittedBy}</h1>}
-        {showDate && <h3 className={"text-xl"}>{item.date.toLocaleDateString()}</h3>}
+      <div key={idx + item.spotifyLink} className='single-playlist-container'>
+        {showDate ? <h1 className={"text-2xl"}>{item.submittedBy}</h1> : <h1 className={"text-2xl"}>&nbsp;</h1>}
+        {showDate ? <h3 className={"text-xl"}>{item.date.toLocaleDateString()}</h3> : <h3 className={"text-xl"}>&nbsp;</h3>}
         <div dangerouslySetInnerHTML={{ __html: html }}/>
       </div>
     )
