@@ -17,7 +17,7 @@ export const data: SpotifyData[] = [
   },
   {
     submittedBy: "Ole Martin M.",
-    spotifyLink: 'https://music.youtube.com/playlist?list=PLEsHpXFyhA_QEcisNEG7Znqml_nBJe6FM&si=_kRNbNzuCE2mXnVC',
+    spotifyLink: 'https://open.spotify.com/playlist/7z1tsEZbKhdizYokX7OcOG',
     date: new Date('2024-05-13'),
   },
   {
