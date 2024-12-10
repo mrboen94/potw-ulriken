@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import './App.css'
-import { data, SpotifyData } from './data/data..ts';
+import { data, SpotifyData } from './data/data.ts';
 
 const groupDataByDate = (data: SpotifyData[]) => {
   return data.reduce((acc, item) => {
