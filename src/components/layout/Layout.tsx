@@ -4,11 +4,6 @@ interface LayoutProps {
     children: React.ReactNode;
 }
 
-const secondaryNavigation = [
-  { name: 'Spillelister', href: '#', current: true },
-  { name: 'Statistikk', href: '#', current: false },
-]
-
 export default function Layout({ children }: LayoutProps) {
   return (
     <main>

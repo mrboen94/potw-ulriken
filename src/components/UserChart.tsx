@@ -6,7 +6,7 @@ import {
   ChartLegendContent,
   ChartConfig
 } from '@/components/ui/chart.tsx';
-import { Bar, BarChart, CartesianGrid, XAxis, YAxis } from "recharts";
+import { Bar, BarChart, CartesianGrid, XAxis } from "recharts";
 import { SpotifyData } from '@/data/data.ts';
 
 interface UserChartProps {

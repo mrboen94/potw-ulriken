@@ -5,7 +5,6 @@ import Layout from '@/components/layout/Layout.tsx';
 import LastPlaylist from '@/components/LastPlaylist.tsx';
 import PlaylistTable from '@/components/PlaylistTable.tsx';
 import { data, SpotifyData } from '@/data/data.ts';
-import { ChartContainer } from '@/components/ui/chart.tsx';
 import UserChart from '@/components/UserChart.tsx';
 
 const spotifyData: SpotifyData[] = data;
