@@ -8,7 +8,7 @@ interface PlaylistTableProps {
 
 export default function PlaylistTable({ spotifyData }: PlaylistTableProps) {
   return (
-    <div className="border-t border-background/10 pt-11">
+    <div className="border-t border-background/10 pt-11 max-w-7xl mx-auto">
 
       <table className="mt-6 mx-auto sm:mx-12 whitespace-nowrap text-left">
         <colgroup>

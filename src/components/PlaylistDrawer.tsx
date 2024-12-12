@@ -20,7 +20,7 @@ export default function PlaylistDrawer({spotifyData}: PlaylistDrawerProps) {
         <Button variant="outline">Vis spilleliste</Button>
       </DrawerTrigger>
       <DrawerContent>
-        <div className="mx-auto w-full max-w-lg mb-4 h-1/2">
+        <div className="mx-auto w-full max-w-lg mb-4 h-full">
           <DrawerHeader>
             <DrawerTitle>
               {spotifyData.submittedBy}
