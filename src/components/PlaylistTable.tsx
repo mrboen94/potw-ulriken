@@ -8,9 +8,9 @@ interface PlaylistTableProps {
 
 export default function PlaylistTable({ spotifyData }: PlaylistTableProps) {
   return (
-    <div className="border-t border-background/10 pt-11 max-w-7xl mx-auto">
+    <div className="border-background/10 w-full sm:max-w-7xl mx-auto">
 
-      <table className="mt-6 mx-auto sm:mx-12 whitespace-nowrap text-left">
+      <table className="mx-auto whitespace-nowrap text-left">
         <colgroup>
           <col className="w-full sm:w-4/12"/>
           <col className="lg:w-4/12"/>
@@ -18,7 +18,7 @@ export default function PlaylistTable({ spotifyData }: PlaylistTableProps) {
           <col className="lg:w-1/12"/>
         </colgroup>
         <thead className="border-b border-white/10 text-sm/6 text-foreground">
-        <tr className="text-background bg-foreground border-b">
+        <tr className="text-foreground bg-yellow-300 border-b">
           <th scope="col" className="py-2 pl-4 pr-8 font-semibold sm:pl-6 lg:pl-8">
             Navn
           </th>
