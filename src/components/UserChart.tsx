@@ -1,12 +1,10 @@
 import {
   ChartContainer,
   ChartTooltip,
-  ChartLegend,
   ChartTooltipContent,
-  ChartLegendContent,
   ChartConfig
 } from '@/components/ui/chart.tsx';
-import { Bar, BarChart, CartesianGrid, XAxis } from "recharts";
+import { Bar, BarChart, CartesianGrid, XAxis, YAxis } from "recharts";
 import { SpotifyData } from '@/data/data.ts';
 
 interface UserChartProps {
@@ -44,9 +42,15 @@ export default function UserChart({ spotifyData }: UserChartProps) {
           tickMargin={1}
           axisLine={false}
         />
+        <YAxis
+            tickCount={chartData[0].Spillelister + 2}
+            tickLine={true}
+            tickMargin={1}
+            axisLine={false}
+            allowDecimals={false}
+        />
         <ChartTooltip content={<ChartTooltipContent />} />
-        <ChartLegend content={<ChartLegendContent />} />
-        <Bar dataKey="Spillelister" fill="var(--color-desktop)" radius={4} />
+        <Bar dataKey="Spillelister" fill="var(--color-desktop)" radius={4} stroke="black" strokeWidth={2} />
       </BarChart>
     </ChartContainer>
     </div>

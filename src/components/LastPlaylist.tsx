@@ -8,7 +8,7 @@ interface LastPlaylistProps {
 
 export default function LastPlaylist({ spotifyData }: LastPlaylistProps) {
   return (
-    <div className="bg-yellow-300/90">
+    <div className="bg-yellow-300/90 border-b-2 border-black">
       <div id="heroContent" className="max-w-7xl grid grid-cols-1 sm:grid-cols-2 mx-auto">
         <div className="border-t border-white/5 px-4 py-6 sm:px-6 lg:px-8">
           <p className="text-sm/6 font-medium text-foreground">{spotifyData.submittedBy}</p>

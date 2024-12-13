@@ -9,6 +9,13 @@ import UserChart from '@/components/UserChart.tsx';
 
 const spotifyData: SpotifyData[] = data;
 
+// Remove future dates
+spotifyData.forEach((playlist) => {
+  if (new Date(playlist.date) > new Date()) {
+    playlist.date = new Date();
+  }
+});
+
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Layout>
