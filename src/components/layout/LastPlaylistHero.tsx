@@ -1,6 +1,7 @@
 import { SpotifyData } from '@/data/data.ts';
 import { SpotifyEmbed } from '@/components/SpotifyEmbed.tsx';
 import { Badge } from '@/components/ui/badge.tsx';
+import vinyl from '@/assets/vinyl.png';
 
 interface LastPlaylistProps {
   spotifyData: SpotifyData;
@@ -25,7 +26,7 @@ export default function LastPlaylistHero({ spotifyData }: LastPlaylistProps) {
         <div className="px-4 py-6 sm:px-6 lg:px-8">
           <SpotifyEmbed link={spotifyData.spotifyLink}/>
         </div>
-        <img src="/vinyl.png" className="hidden lg:block h-64 w-64 absolute -z-10 animate-spin right-0 inset-y-[20%] inset-x-[65%]"/>
+        <img src={vinyl} className="hidden lg:block h-64 w-64 absolute -z-10 animate-spin right-0 inset-y-[20%] inset-x-[65%]"/>
       </div>
     </div>
   )
