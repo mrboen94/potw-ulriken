@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import Layout from '@/components/layout/Layout.tsx';
-import LastPlaylist from '@/components/LastPlaylist.tsx';
+import LastPlaylistHero from '@/components/layout/LastPlaylistHero.tsx';
 import PlaylistTable from '@/components/PlaylistTable.tsx';
 import { data, SpotifyData } from '@/data/data.ts';
 import UserChart from '@/components/UserChart.tsx';
@@ -19,7 +19,7 @@ spotifyData.forEach((playlist) => {
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Layout>
-      <LastPlaylist spotifyData={spotifyData[0]}/>
+      <LastPlaylistHero spotifyData={spotifyData[0]}/>
       <UserChart spotifyData={spotifyData}/>
       <PlaylistTable spotifyData={spotifyData.slice(1)}/>
     </Layout>
