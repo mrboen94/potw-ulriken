@@ -9,7 +9,7 @@ interface LastPlaylistProps {
 
 export default function LastPlaylistHero({ spotifyData }: LastPlaylistProps) {
   return (
-    <div className="bg-yellow-300 md:border-b-2 md:border-black relative -z-10">
+    <div className="bg-yellow-300 md:border-b-2 md:border-black -z-10">
       <div id="heroContent" className="max-w-7xl grid grid-cols-1 sm:grid-cols-2 mx-auto">
         <div className="md:border-t md:border-white/5 px-4 py-6 sm:px-6 lg:px-8">
           <p className="text-sm/6 font-medium text-foreground">{spotifyData.submittedBy}</p>
@@ -23,10 +23,11 @@ export default function LastPlaylistHero({ spotifyData }: LastPlaylistProps) {
           {spotifyData?.description &&
               <p className="mt-4 text-sm/6 text-foreground/90 md:text-md lg:text-lg">{spotifyData.description}</p>}
         </div>
-        <div className="px-4 py-6 sm:px-6 lg:px-8">
+        <div className="group px-4 py-6 sm:px-6 lg:px-8 z-40 relative">
           <SpotifyEmbed link={spotifyData.spotifyLink}/>
+          <img src={vinyl}
+               className="hidden xl:block group-hover:translate-x-48 transition ease-in-out h-64 w-64 absolute -z-10 right-0 inset-y-[20%] inset-x-[50%]"/>
         </div>
-        <img src={vinyl} className="hidden lg:block h-64 w-64 absolute -z-10 animate-spin right-0 inset-y-[20%] inset-x-[65%]"/>
       </div>
     </div>
   )
