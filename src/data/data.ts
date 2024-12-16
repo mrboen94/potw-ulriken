@@ -31,7 +31,7 @@ enum Users {
 
 export const data: SpotifyData[] = [
   {
-    submittedBy: Users["Per H."],
+    submittedBy: Users["Jan Peder A."],
     spotifyLink: "https://open.spotify.com/playlist/7r8RtI1tmpXoJYlPjWOuca?si=nj1GkeHKR62i02qaaTFsfw&pi=e-QZvRZAKaSw2M",
     date: new Date("2024-12-16"),
     description: "Her er noe gammelt rask fra Bergen som jeg har vage minner fra. Da havnet man gjerne på steder hvor øllet var billig og lokalene var … enda billigere. Hulen, Technicken og senere kvarteret. Da digget jeg Bergensk musikk. Har spedd på med noe nyere fra Hjerteslag som holdt en konsert på Verftet for et par år siden som var helt oppe i toppen av mine konsert opplevelser.",
