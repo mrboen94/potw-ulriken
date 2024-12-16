@@ -1,6 +1,7 @@
 import { SpotifyData } from '@/data/data.ts';
 import PlaylistDrawer from '@/components/PlaylistDrawer.tsx';
 import { Badge } from '@/components/ui/badge.tsx';
+import PlaylistDialog from '@/components/PlaylistDialog.tsx';
 
 interface PlaylistTableProps {
   spotifyData: SpotifyData[];
@@ -51,8 +52,11 @@ export default function PlaylistTable({ spotifyData }: PlaylistTableProps) {
               className="hidden sm:table-cell font-mono py-4 pl-0 pr-4 text-sm/6 text-gray-400 sm:table-cell sm:pr-6 lg:pr-8">
               {spotify.date.toLocaleDateString()}
             </td>
-            <td className="py-4 pl-0 pr-4 text-sm/6 sm:pr-8 lg:pr-20">
+            <td className="md:hidden py-4 pl-0 pr-4 text-sm/6 sm:pr-8 lg:pr-20">
               <PlaylistDrawer spotifyData={spotify}/>
+            </td>
+            <td className="hidden md:block py-4 pl-0 pr-4 text-sm/6 sm:pr-8 lg:pr-20">
+              <PlaylistDialog spotifyData={spotify}/>
             </td>
           </tr>
         ))}
