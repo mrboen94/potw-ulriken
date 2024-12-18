@@ -27,9 +27,18 @@ enum Users {
     "Ole Martin M." = "Ole Martin M.",
     "Robert H." = "Robert H.",
     "Per H." = "Per H.",
+    "Ulriken Consulting" = "Ulriken Consulting",
 }
 
 export const data: SpotifyData[] = [
+  {
+    submittedBy: Users["Ulriken Consulting"],
+    spotifyLink: "https://open.spotify.com/playlist/7cSG3pksgrwn39TS1Jik9b?si=2ff710e0d030492c",
+    date: new Date("2024-12-23"),
+    description: "Her er julesangene som alle i UC har lagt til i en felles spilleliste. God jul!",
+    theme: "Julesanger",
+    title: "UC Juleliste"
+  },
   {
     submittedBy: Users["Jan Peder A."],
     spotifyLink: "https://open.spotify.com/playlist/7r8RtI1tmpXoJYlPjWOuca?si=nj1GkeHKR62i02qaaTFsfw&pi=e-QZvRZAKaSw2M",
