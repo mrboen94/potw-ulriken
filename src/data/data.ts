@@ -32,6 +32,14 @@ enum Users {
 
 export const data: SpotifyData[] = [
   {
+    submittedBy: Users["Per H."],
+    spotifyLink: "https://open.spotify.com/playlist/1F7TqAW1l0uaxiPIoyBWGD?si=208967faf9b24bb6",
+    date: new Date("2025-01-06"),
+    description: "Hører på veldig mye forskjellig og har i mine litt yngre dager, vært en ivrig konsertgjenger. Har derfor plukket et lite utvalg av artister og låter jeg har hørt live. Det meste er kanskje velkjent? Quiz: Det ene bandet her har jeg vært på et 40-talls konserter med, hvilket?",
+    theme: "Konsertminner",
+    title: "UC - POTW1"
+  },
+  {
     submittedBy: Users["Ulriken Consulting"],
     spotifyLink: "https://open.spotify.com/playlist/7cSG3pksgrwn39TS1Jik9b?si=2ff710e0d030492c",
     date: new Date("2024-12-23"),
