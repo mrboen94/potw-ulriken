@@ -28,9 +28,19 @@ enum Users {
     "Robert H." = "Robert H.",
     "Per H." = "Per H.",
     "Ulriken Consulting" = "Ulriken Consulting",
+    "Bjørnar T." = "Bjørnar T.",
+    "Cecilie K." = "Cecilie K."
 }
 
 export const data: SpotifyData[] = [
+  {
+    submittedBy: Users["Bjørnar T."],
+    spotifyLink: "https://open.spotify.com/playlist/0N0vQxfEHpEmuu7V9RkVKt?si=JzOMcqgKQWe5a0CQ3GP1Cg&pi=e-PtILZw3WSaye",
+    date: new Date("2025-01-21"),
+    description: "Det er noen artister jeg stadig vender tilbake til.  Spillelisten fra meg representerer noen av disse. Ikke så originalt og sikkert kjent for de fleste. Med unntak av 2 der jeg kjenner en artist personlig.",
+    theme: "Favorittartister",
+    title: "Bjørnars"
+  },
   {
     submittedBy: Users["Per H."],
     spotifyLink: "https://open.spotify.com/playlist/1F7TqAW1l0uaxiPIoyBWGD?si=208967faf9b24bb6",
