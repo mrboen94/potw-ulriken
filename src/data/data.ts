@@ -29,10 +29,19 @@ enum Users {
     "Per H." = "Per H.",
     "Ulriken Consulting" = "Ulriken Consulting",
     "Bjørnar T." = "Bjørnar T.",
-    "Cecilie K." = "Cecilie K."
+    "Cecilie K." = "Cecilie K.",
+    "Magnus B." = "Magnus B.",
 }
 
 export const data: SpotifyData[] = [
+  {
+    submittedBy: Users["Magnus B."],
+    spotifyLink: "https://open.spotify.com/playlist/3XT59GRGX7RlfMu5XEiiec",
+    date new Date("2025-02-04"),
+    description: "Hei! Det kom litt brått på, så istedet for å bruke mye tid på å tenke ut en sjanger eller tematikk så legger jeg opp en liste med et utvalg musikk og band som jeg selv driver å hører på nå for tiden. Det er Classic Rock det går i. :smiley:  Denne sjangeren er jo mainstream så det holder, men det er en sjanger jeg stadig kommer tilbake til med jevne mellomrom, helt siden den dagen jeg oppdaget at faren min egentlig hadde veldig god musikk smak allikevel. :smile: det er jo utrolig mye bra innenfor denne sjangeren, så det har vært vanskelig å velge. Men her er et lite utvalg av mine favoritt låter og band.",
+    theme: "Classic rock",
+    title: "UC-2025 uke 6"
+  },
   {
     submittedBy: Users["Bjørnar T."],
     spotifyLink: "https://open.spotify.com/playlist/0N0vQxfEHpEmuu7V9RkVKt?si=JzOMcqgKQWe5a0CQ3GP1Cg&pi=e-PtILZw3WSaye",
