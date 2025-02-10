@@ -43,6 +43,14 @@ export const data: SpotifyData[] = [
     title: "UC-2025 uke 6"
   },
   {
+    submittedBy: Users["Cecilie K."],
+    spotifyLink: "https://open.spotify.com/playlist/3XT59GRGX7RlfMu5XEiiec",
+    date: new Date("2025-01-28"),
+    description: "Litt vanskelig å velge låter for der er så mange bra der ute :slightly_smiling_face: Dette er et lite knippe låter som passet humøret jeg er i. Litt energi, litt feel good, litt nostalgi, litt lokalt ++",
+    theme: "Feel good nostalgi",
+    title: "UC 05 2025"
+  },
+  {
     submittedBy: Users["Bjørnar T."],
     spotifyLink: "https://open.spotify.com/playlist/0N0vQxfEHpEmuu7V9RkVKt?si=JzOMcqgKQWe5a0CQ3GP1Cg&pi=e-PtILZw3WSaye",
     date: new Date("2025-01-21"),
