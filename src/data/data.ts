@@ -31,9 +31,26 @@ enum Users {
     "Bjørnar T." = "Bjørnar T.",
     "Cecilie K." = "Cecilie K.",
     "Magnus B." = "Magnus B.",
+    "Mads V." = "Mads V.",
 }
 
 export const data: SpotifyData[] = [
+  {
+    submittedBy: Users["Mathias B."],
+    spotifyLink: "https://open.spotify.com/playlist/547dqwO1Xog1w2FtSlOMBl?si=3845e78242f04657",
+    date: new Date("2025-03-20"),
+    description: "Her er ei speleliste med litt klassikera, litt nytt og litt ukjent. Mulig det er mykje ukjent på lista her for mange, men er god blanding av sjangera. Avslutta med en lang sang som er en av mine favoritta frå den artisten. Veldig artsy rar musikk, men heilt knall å sitte å programmere til.",
+    theme: "Kjent og ukjent",
+    title: "POTW-UC-M3"
+  },
+  {
+    submittedBy: Users["Mads V."],
+    spotifyLink: "https://open.spotify.com/playlist/4szvxJzaptWRipXu8F52XF?si=T7voBo22TYK44fPsfetGAw",
+    date: new Date("2025-02-27"),
+    description: "Har skrudd sammen en liste med sanger jeg kan finne på å høre på når jeg trener. Kategori: Blanda drops. Jeg har ikke prøvd å høre på den ute i det fri så gjør det på eget ansvar.",
+    theme: "Trening",
+    title: "Pumpinator3000"
+  },
   {
     submittedBy: Users["Magnus B."],
     spotifyLink: "https://open.spotify.com/playlist/3XT59GRGX7RlfMu5XEiiec",
