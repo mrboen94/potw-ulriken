@@ -32,9 +32,18 @@ enum Users {
     "Cecilie K." = "Cecilie K.",
     "Magnus B." = "Magnus B.",
     "Mads V." = "Mads V.",
+    "Kristoffer S." = "Kristoffer S.",
 }
 
 export const data: SpotifyData[] = [
+  {
+    submittedBy: Users["Kristoffer S."],
+    spotifyLink: "https://open.spotify.com/playlist/2kXHhnv1ZU7VFPZhyNP7rv?si=41faeed096c1429b",
+    date: new Date("2025-03-24"),
+    description: "For tiden er det kun en ting som står i hodet på meg. For tiden tenker jeg kun på Sportsklubben Brann! Sesongstart er ensbetydendemed koking. Om man skal koke opp til anstendige temperaturer er det essensielt med rett musikk. Fotball har inspirert mye forglemmelig musikk, men heldigvis finnes det unntak. I spillelisten finner dere 10 låter fra kulturklubben Branns frodige musikalske underskog. Låtene passer utmerket til kokerelaterte formål, men er også vel verdt å lytte til for de av dere som bare liker fet musikk. Det gledes til sesongstart på lørdag. GKH!",
+    theme: "Fotball / Brann",
+    title: "Kokelisten"
+  },
   {
     submittedBy: Users["Mathias B."],
     spotifyLink: "https://open.spotify.com/playlist/547dqwO1Xog1w2FtSlOMBl?si=3845e78242f04657",
